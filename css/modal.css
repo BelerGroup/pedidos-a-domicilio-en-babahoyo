@@ -1,0 +1,60 @@
+ .modal-contenido{
+  background-color:white;
+  padding: 10px 20px;
+  margin: 2% auto;
+  position: relative;
+  overflow-y: scroll;
+  height: 90%;
+}
+
+.mostrar{
+  background-color: rgba(0,0,10,.7);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:1;
+  pointer-events:auto;
+  transition: 0.8s;
+}
+
+.ocultar{
+  background-color: rgba(0,0,10,.7);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+}
+
+.logotipo{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  background-color: red;
+}
+
+.cont-logo{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.cont-nav-modal{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+}
+
+.con-titulo{
+ 
+  text-align: center;
+}
+
+
+
