@@ -34,14 +34,12 @@
   width: 100px;
   height: 100px;
   display: flex;
-  background-color: red;
 }
 
 .cont-logo{
   display: flex;
   width: 100px;
   height: 100px;
-  background-color: blue;
 }
 
 .cont-nav-modal{
